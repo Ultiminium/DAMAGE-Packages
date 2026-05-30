@@ -1,0 +1,7 @@
+{
+  "name": "cards",
+  "version": "1.0",
+  "description": "Card drawing — draw a random card from a standard deck",
+  "author": "Ultiminium",
+  "functions": ["@drawcard", "@drawsuit"]
+}

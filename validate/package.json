@@ -1,0 +1,7 @@
+{
+  "name": "validate",
+  "version": "1.0",
+  "description": "Input validation — password strength, range check",
+  "author": "Ultiminium",
+  "functions": ["@pwcheck", "@rangecheck"]
+}

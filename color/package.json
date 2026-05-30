@@ -1,0 +1,7 @@
+{
+  "name": "color",
+  "version": "1.0",
+  "description": "Colored terminal output using ANSI codes",
+  "author": "Ultiminium",
+  "functions": ["@red", "@green", "@yellow", "@blue", "@reset"]
+}

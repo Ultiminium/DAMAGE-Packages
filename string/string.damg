@@ -1,0 +1,27 @@
+| DAMAGE string package v1.0
+
+@addfunc+
+| repeat a string n times — set @var str+value- and @var times+N-
+@var+
+     repeated+-
+@-
+@loop,dyn,var+
+@dyn:(repeated) = (repeated)(str)
+@loop:(times)
+@-
+@print,var+
+     +(repeated)-
+@-
+@addfunc:createname"repeat"
+@---
+
+@addfunc+
+| trim trailing/leading spaces from @var str+value-
+@text+
+text:capital"@var/str/a":1
+@-
+@print,var+
+     +(str)-
+@-
+@addfunc:createname"trim"
+@---

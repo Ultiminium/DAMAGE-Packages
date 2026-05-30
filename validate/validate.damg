@@ -1,0 +1,39 @@
+| DAMAGE validate package v1.0
+
+@addfunc+
+| password strength check — set @var pw+yourpassword-
+| prints: weak / medium / strong
+@text+
+@text:length+@var/pw-
+@var:create+pwlen-
+@-
+if, (pwlen) < 6
+@print+
+     +weak-
+@-
+if, (pwlen) > 5
+if, (pwlen) < 12
+@print+
+     +medium-
+@-
+if, (pwlen) > 11
+@print+
+     +strong-
+@-
+@addfunc:createname"pwcheck"
+@---
+
+@addfunc+
+| range check — set @var n+(value)- @var min+(min)- @var max+(max)-
+| prints: 1 if in range, 0 if not
+if, (n) > (min)
+if, (n) < (max)
+@print+
+     +1-
+@-
+other,
+@print+
+     +0-
+@-
+@addfunc:createname"rangecheck"
+@---

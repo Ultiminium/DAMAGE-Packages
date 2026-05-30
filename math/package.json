@@ -1,0 +1,7 @@
+{
+  "name": "mathext",
+  "version": "1.0",
+  "description": "Extended math functions — sqrt, abs, round",
+  "author": "Ultiminium",
+  "functions": ["@sqrt", "@abs", "@round"]
+}

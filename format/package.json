@@ -1,0 +1,7 @@
+{
+  "name": "format",
+  "version": "1.0",
+  "description": "Number and text formatting utilities",
+  "author": "Ultiminium",
+  "functions": ["@currency", "@pad"]
+}

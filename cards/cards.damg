@@ -1,0 +1,27 @@
+| DAMAGE cards package v1.0
+
+@addfunc+
+| draw a random card value
+@print,random+
+     @()+Ace,2,3,4,5,6,7,8,9,10,Jack,Queen,King-
+@var:create+card_value-
+@-
+| draw a random suit
+@print,random+
+     @()+Hearts,Diamonds,Clubs,Spades-
+@var:create+card_suit-
+@-
+@print,var+
+     +(card_value) of (card_suit)-
+@-
+@addfunc:createname"drawcard"
+@---
+
+@addfunc+
+| draw a random suit only
+@print,random+
+     @()+Hearts,Diamonds,Clubs,Spades-
+@var:create+card_suit-
+@-
+@addfunc:createname"drawsuit"
+@---

@@ -1,0 +1,34 @@
+| DAMAGE dice package v1.0
+
+@addfunc+
+@print,random+
+     @()+1-6-
+@var:create+roll_result-
+@-
+@addfunc:createname"d6"
+@---
+
+@addfunc+
+@print,random+
+     @()+1-20-
+@var:create+roll_result-
+@-
+@addfunc:createname"d20"
+@---
+
+@addfunc+
+@print,random+
+     @()+1-100-
+@var:create+roll_result-
+@-
+@addfunc:createname"d100"
+@---
+
+@addfunc+
+| custom roll — set @var sides+N- for an N-sided die
+@print,random+
+     @()+1-(sides)-
+@var:create+roll_result-
+@-
+@addfunc:createname"roll"
+@---

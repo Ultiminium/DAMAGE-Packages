@@ -1,0 +1,7 @@
+{
+  "name": "dice",
+  "version": "1.0",
+  "description": "Dice rolling — d6, d20, d100",
+  "author": "Ultiminium",
+  "functions": ["@d6", "@d20", "@d100", "@roll"]
+}

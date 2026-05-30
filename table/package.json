@@ -1,0 +1,7 @@
+{
+  "name": "table",
+  "version": "1.0",
+  "description": "Print formatted tables and dividers in the terminal",
+  "author": "Ultiminium",
+  "functions": ["@divider", "@row", "@header"]
+}

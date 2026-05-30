@@ -1,0 +1,37 @@
+| DAMAGE color package v1.0
+| Set @var msg+your message- then call the color function
+
+@addfunc+
+@print,var+
+     +[31m(msg)[0m-
+@-
+@addfunc:createname"red"
+@---
+
+@addfunc+
+@print,var+
+     +[32m(msg)[0m-
+@-
+@addfunc:createname"green"
+@---
+
+@addfunc+
+@print,var+
+     +[33m(msg)[0m-
+@-
+@addfunc:createname"yellow"
+@---
+
+@addfunc+
+@print,var+
+     +[34m(msg)[0m-
+@-
+@addfunc:createname"blue"
+@---
+
+@addfunc+
+@print+
+     +[0m-
+@-
+@addfunc:createname"reset"
+@---

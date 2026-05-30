@@ -1,0 +1,7 @@
+{
+  "name": "string",
+  "version": "1.0",
+  "description": "Extended string operations — reverse, repeat, trim",
+  "author": "Ultiminium",
+  "functions": ["@reverse", "@repeat", "@trim"]
+}

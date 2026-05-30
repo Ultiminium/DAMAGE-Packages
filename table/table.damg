@@ -1,0 +1,31 @@
+| DAMAGE table package v1.0
+
+@addfunc+
+| print a divider line
+@print+
+     +-----------------------------------------
+@-
+@addfunc:createname"divider"
+@---
+
+@addfunc+
+| print a header — set @var title+YourTitle-
+@print+
+     +-----------------------------------------
+@-
+@print,var+
+     +  (title)-
+@-
+@print+
+     +-----------------------------------------
+@-
+@addfunc:createname"header"
+@---
+
+@addfunc+
+| print a row — set @var col1+value- @var col2+value-
+@print,var+
+     +  (col1)                    (col2)-
+@-
+@addfunc:createname"row"
+@---

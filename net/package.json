@@ -1,0 +1,7 @@
+{
+  "name": "net",
+  "version": "1.0",
+  "description": "HTTP network requests for DAMAGE",
+  "author": "Ultiminium",
+  "functions": ["@net"]
+}

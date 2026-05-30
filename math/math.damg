@@ -1,0 +1,35 @@
+| DAMAGE math package v1.0
+| After installing, set @var n+(value)- then call the function
+| Result is stored in __mathresult__ and printed
+
+@addfunc+
+@print,math,var+
+     +%((n)) ^ 0.5%-
+@-
+@addfunc:createname"sqrt"
+@---
+
+@addfunc+
+@var+
+     abs_result+0-
+@-
+if, (n) > 0
+@dyn,var+
+@dyn:(abs_result) = (n)
+@-
+if, (n) < 0
+@dyn,var+
+@dyn:(abs_result) = 0-(n)
+@-
+@print,var+
+     +(abs_result)-
+@-
+@addfunc:createname"abs"
+@---
+
+@addfunc+
+@print,math,var+
+     +%((n))+0%-
+@-
+@addfunc:createname"round"
+@---

@@ -1,0 +1,12 @@
+{
+  "name": "chess",
+  "version": "1.0",
+  "description": "Full chess engine with 30-ply minimax, 8-layer priority evaluation, and SAN move input",
+  "author": "Ultiminium",
+  "functions": [
+    "@chess_init",
+    "@chess_display",
+    "@chess_move",
+    "@chess_bot"
+  ]
+}
